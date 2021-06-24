@@ -1,21 +1,18 @@
 body {
- font-family: 'Open Sans', sans-serif;
-
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   letter-spacing: 1px;
-  height:100%;
-
+  /*height:100vh;*/
 }
 
 .Left {
   position: absolute;
   margin-left: 0;
   width: 250px;
-  background-color: black;
+  background-color: #53534F;
   margin: 0;
   color: white;
-
-
+  height: 100vh;
 }
 
 .left-icon {
@@ -34,10 +31,6 @@ body {
   font-weight: 600;
 }
 
-.Profile {
-  background-color: #53534F;
-
-}
 
 .Ne {
   padding: 10px;
@@ -86,6 +79,7 @@ body {
   margin-left: 250px;
   font-size: 0.8rem;
   font-weight: 800;
+  height: 100vh;
 }
 
 .Large {
@@ -112,9 +106,8 @@ body {
 
 .NormalText {
   color: black;
-  margin: 0 ;
+  margin: 0;
   line-height: 18px
-
 }
 
 .time {
@@ -130,14 +123,13 @@ body {
 .downright {
   width: 10px;
   float: right;
- margin-top: 5px ;
+  margin-top: 5px;
 }
 
 .NePost {
   position: absolute;
   width: 35px;
-
-    border: 0.05px solid #A8B0B1;
+  border: 0.05px solid #A8B0B1;
 }
 
 .SquareImg {
@@ -161,17 +153,27 @@ body {
 .line {
   border: 0.05px solid #A8B0B1;
 }
-.CommentText{
+
+.CommentText {
   margin-left: 40px;
 }
-.WriteComment{color:
 
- #737373;}
-.pencil{
+.WriteComment {
+  color:
+    #737373;
+}
+
+.pencil {
   width: 14px;
   float: left;
   margin-top: 2px;
   margin-right: 10px;
 }
-.mypost{margin:5px 5px;}
-.space{line-height: 22px;}
+
+.mypost {
+  margin: 5px 5px;
+}
+
+.space {
+  line-height: 22px;
+}
